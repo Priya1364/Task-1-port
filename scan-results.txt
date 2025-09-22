@@ -1,0 +1,16 @@
+Task: Quick port check using phone browser
+Date: 2025-09-22
+Author: Priyadharshini L
+
+Public IP: <paste your public IP here>
+
+Local phone IP: <paste the local IP from Wi-Fi settings>
+
+Port test results (from YouGetSignal / PortChecker):
+- Port 22 (SSH): <OPEN or CLOSED>
+- Port 80 (HTTP): <OPEN or CLOSED>
+- Port 443 (HTTPS): <OPEN or CLOSED>
+- Port 3389 (RDP): <OPEN or CLOSED>
+
+Notes:
+Router admin page was not accessible, so I used online scanners. If any port is OPEN: disable port forwarding, disable UPnP, enable router firewall, and update services.
